@@ -3,8 +3,8 @@ const client = new Discord.Client();
 
 
 client.on('ready', () => {
-  console.log(`Your Bot Is Online ${client.user.tag}!`);
 client.user.setGame('-help | -invite','https://www.twitch.tv/Invite-Reward');
+  console.log(`Your Bot Is Online ${client.user.tag}!`);
 });
 
 
